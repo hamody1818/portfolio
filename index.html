@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catli, Hamody | Aspiring Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">CH.</a>
+      <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-container">
+
+        <div class="hero-content">
+          <span class="hero-greeting">Hello, I'm</span>
+          <h1 class="hero-name">Catli, Hamody</h1>
+          <p class="hero-role">Aspiring Web Developer</p>
+
+          <p class="hero-tagline">
+            Passionate about building clean, responsive, and user-friendly websites while continuously improving my skills in web development.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="resume.html" class="btn btn-primary">View My Resume</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-ring"></div>
+          <img src="prof.jpg" alt="Catli, Hamody" class="hero-image">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">What I Do</h2>
+        <p class="section-subtitle">
+          Focused on building simple, functional, and well-designed web applications.
+        </p>
+      </div>
+
+      <div class="grid-3">
+
+        <div class="card">
+          <div class="card-icon">🎨</div>
+          <h3 class="card-title">Frontend</h3>
+          <p class="card-text">
+            Creating responsive layouts using HTML, CSS, and JavaScript with attention to clean design and usability.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">⚙️</div>
+          <h3 class="card-title">Backend</h3>
+          <p class="card-text">
+            Building basic systems using PHP and MySQL, including forms, login features, and data handling.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3 class="card-title">Responsive Design</h3>
+          <p class="card-text">
+            Designing websites that adapt to different screen sizes for a smooth user experience.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="text-align: center;">
+      <h2 class="section-title mb-2">Let's Connect</h2>
+      <p class="section-subtitle mb-4">
+        I'm open to learning opportunities, collaborations, and new experiences.
+      </p>
+      <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+
+        <div>
+          <div class="footer-brand">CH.</div>
+          <p class="footer-text">
+            Continuously learning and improving in web development.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div></div>
+
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:your@email.com">Hamody@email.com</a></li>
+            <li>Mabalacat, Pampanga</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Catli, Hamody. All rights reserved. Built with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
